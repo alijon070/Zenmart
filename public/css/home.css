@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 145px;
+  margin-bottom: 47px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -298,4 +299,245 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-align: right;
+}
+
+.slider_frame {
+  position: relative;
+  width: 100%;
+  height: 508px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #fff;
+}
+
+.slider_container {
+  position: relative;
+
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.slider_container .slider_right {
+  width: 871px;
+  height: 508px;
+  border: 1px solid var(--Bg / White, rgba(255, 255, 255, 1));
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: rgba(0, 83, 246, 1);
+}
+
+.slider_right .context {
+  position: relative;
+  z-index: 2;
+  width: 428px;
+  height: 323px;
+  margin-left: 15px;
+}
+
+.context .offer {
+  width: 104px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  background: rgba(245, 195, 75, 1);
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.context strong {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.context p {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.context a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 140px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--Bg / White, rgba(255, 255, 255, 1));
+  border-radius: 6px;
+  background: rgba(245, 195, 75, 1);
+  color: rgba(4, 30, 66, 1);
+}
+
+.slider_right .image {
+  position: relative;
+  z-index: 1;
+  right: 45px;
+  width: 519.51px;
+  height: 407px;
+}
+
+.slider_container .slider_left {
+  position: relative;
+  width: 422px;
+  height: 508px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slider_left .slider_left_top {
+  position: relative;
+  width: 422px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 6px;
+}
+
+.slider_left_top .top_context {
+  z-index: 2;
+  width: 248px;
+  height: 139px;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top_context span {
+  display: block;
+  color: rgba(0, 83, 246, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.top_context strong {
+  display: block;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.top_context .shop-btn {
+  width: 122px;
+  height: 20px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+
+.slider_left .slider_left_bott {
+  position: relative;
+  width: 422px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 6px;
+}
+
+.slider_left_bott .bott_context {
+  z-index: 2;
+  width: 248px;
+  height: 139px;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bott_context span {
+  display: block;
+  color: rgba(0, 83, 246, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.bott_context strong {
+  display: block;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.bott_context .shop-btn {
+  width: 122px;
+  height: 20px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-bottom: 2px solid rgba(4, 30, 66, 1);
 }

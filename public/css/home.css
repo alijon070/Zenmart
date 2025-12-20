@@ -544,6 +544,8 @@ a {
   text-align: center;
 }
 
+/* headphone container */
+
 .headphone_section_container {
   position: relative;
   margin-top: 90px;
@@ -570,7 +572,7 @@ a {
   align-items: center;
 }
 
-.headphone_section_head span {
+.headphone_section_container .headphone_section_head span {
   position: relative;
   color: rgba(4, 30, 66, 1);
 
@@ -582,7 +584,7 @@ a {
   text-align: left;
 }
 
-.headphone_section_head .btn {
+.headphone_section_container .headphone_section_head .btn {
   position: relative;
   width: auto;
   height: auto;
@@ -599,7 +601,7 @@ a {
   border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 
-.headphone_section_body {
+.headphone_section_container .headphone_section_body {
   position: relative;
   width: 1320px;
   height: 368px;
@@ -609,7 +611,7 @@ a {
   justify-content: space-between;
 }
 
-.headphone_section_body .headphone_left {
+.headphone_section_container .headphone_section_body .headphone_left {
   position: relative;
   padding: 30px;
   width: 665px;
@@ -624,14 +626,14 @@ a {
   background-color: rgba(243, 245, 246, 1);
 }
 
-.headphone_left .left_context {
+.headphone_section_container .headphone_left .left_context {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.headphone_left .left_context span {
+.headphone_section_container .headphone_left .left_context span {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -642,7 +644,7 @@ a {
   text-align: left;
 }
 
-.headphone_left .left_context strong {
+.headphone_section_container .headphone_left .left_context strong {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
@@ -654,7 +656,7 @@ a {
   text-align: left;
 }
 
-.headphone_left .left_context .shop-btn {
+.headphone_section_container .headphone_left .left_context .shop-btn {
   width: auto;
 }
 
@@ -662,7 +664,7 @@ a {
   border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 
-.headphone_section_body .headphone_middle {
+.headphone_section_container .headphone_section_body .headphone_middle {
   position: relative;
   width: auto;
   height: 368px;
@@ -672,7 +674,7 @@ a {
   justify-content: space-between;
 }
 
-.headphone_middle .middle_box {
+.headphone_section_container .headphone_middle .middle_box {
   position: relative;
   padding: 5px;
   box-sizing: border-box;
@@ -687,13 +689,13 @@ a {
   background-color: rgba(243, 245, 246, 1);
 }
 
-.middle_box .middle_context {
+.headphone_section_container .middle_box .middle_context {
   width: 25%;
   margin-bottom: 55px;
   margin-left: 25px;
 }
 
-.middle_context span {
+.headphone_section_container .middle_context span {
   display: block;
   color: rgba(98, 105, 116, 1);
 
@@ -705,7 +707,7 @@ a {
   text-align: left;
 }
 
-.middle_context strong {
+.headphone_section_container .middle_context strong {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
@@ -717,7 +719,7 @@ a {
   text-align: left;
 }
 
-.headphone_section_body .headphone_right {
+.headphone_section_container .headphone_section_body .headphone_right {
   position: relative;
   width: auto;
   height: 368px;
@@ -727,7 +729,7 @@ a {
   justify-content: space-between;
 }
 
-.headphone_right .right_box {
+.headphone_section_container .headphone_right .right_box {
   position: relative;
   padding: 5px;
   box-sizing: border-box;
@@ -742,13 +744,13 @@ a {
   background-color: rgba(243, 245, 246, 1);
 }
 
-.right_box .right_context {
+.headphone_section_container .right_box .right_context {
   width: 25%;
   margin-bottom: 55px;
   margin-left: 25px;
 }
 
-.right_context span {
+.headphone_section_container .right_context span {
   display: block;
   color: rgba(98, 105, 116, 1);
 
@@ -760,7 +762,7 @@ a {
   text-align: left;
 }
 
-.right_context strong {
+.headphone_section_container .right_context strong {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
@@ -770,4 +772,134 @@ a {
   line-height: 15px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+/* TV container */
+
+.tv_container {
+  position: relative;
+  margin-bottom: 60px;
+
+  width: 1320px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.tv_container .tv_head {
+  position: relative;
+  margin-bottom: 30px;
+  width: 1320px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tv_container .tv_head span {
+  position: relative;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.tv_container .tv_head .btn {
+  position: relative;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.tv_head .tv_head_section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.tv_head_section .btn:hover {
+  border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+
+.tv_container .tv_body {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+}
+
+.tv_container .tv_body .tv_card {
+  position: relative;
+  padding: 10px;
+
+  width: 260px;
+  height: 455px;
+  flex: 0 0 260px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tv_container .tv_card_context span {
+  font-family: Jost;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(98, 105, 116, 1);
+}
+
+.tv_container .tv_card_context .old {
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.tv_container .tv_card_context h3,
+strong,
+a {
+  color: rgba(4, 30, 66, 1);
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.tv_card .tv_card_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv_container .tv_card:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
 }

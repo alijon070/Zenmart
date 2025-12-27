@@ -68,7 +68,7 @@
   background: rgba(245, 195, 75, 1);
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 500;
   line-height: 22px;
@@ -79,7 +79,7 @@
 .slider_frame .context strong {
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 60px;
   font-weight: 500;
   line-height: 80px;
@@ -90,7 +90,7 @@
 .slider_frame .context p {
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -158,7 +158,7 @@
   display: block;
   color: rgba(0, 83, 246, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -170,7 +170,7 @@
   display: block;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 500;
   line-height: 38px;
@@ -184,7 +184,7 @@
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -217,7 +217,7 @@
   display: block;
   color: rgba(0, 83, 246, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -229,7 +229,7 @@
   display: block;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 500;
   line-height: 38px;
@@ -243,7 +243,7 @@
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -301,7 +301,7 @@
 .icons_frame .info_text strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -312,7 +312,7 @@
 .icons_frame .info_text span {
   color: rgba(98, 105, 116, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -351,7 +351,7 @@
   position: relative;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -367,7 +367,7 @@
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 17px;
   font-weight: 500;
   line-height: 22px;
@@ -400,7 +400,7 @@
   margin-top: 10px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -439,7 +439,7 @@
   position: relative;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -455,7 +455,7 @@
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 17px;
   font-weight: 500;
   line-height: 22px;
@@ -553,7 +553,7 @@
   box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
   border-radius: 6px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -566,7 +566,7 @@
 }
 
 .seller_container .product_card_context span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 17px;
   font-weight: 500;
   line-height: 22px;
@@ -584,7 +584,7 @@
 strong,
 a {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;
@@ -660,7 +660,7 @@ a {
 .info_bar p {
   color: rgba(0, 83, 246, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -700,7 +700,7 @@ a {
   position: relative;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -716,7 +716,7 @@ a {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 17px;
   font-weight: 500;
   line-height: 22px;
@@ -760,7 +760,7 @@ a {
 .headphone_section_container .headphone_left .left_context span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -772,7 +772,7 @@ a {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 500;
   line-height: 38px;
@@ -823,7 +823,7 @@ a {
   display: block;
   color: rgba(98, 105, 116, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -835,7 +835,7 @@ a {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -878,7 +878,7 @@ a {
   display: block;
   color: rgba(98, 105, 116, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -890,7 +890,7 @@ a {
   margin: 15px 0px 15px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -929,7 +929,7 @@ a {
   position: relative;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -945,7 +945,7 @@ a {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
@@ -1021,7 +1021,7 @@ a {
 }
 
 .tv_container .tv_card_context span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 17px;
   font-weight: 500;
   line-height: 22px;
@@ -1039,7 +1039,7 @@ a {
 strong,
 a {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;
@@ -1145,7 +1145,7 @@ a {
 .deals_frame .deals_left .deals_title {
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -1172,7 +1172,7 @@ a {
 .deals_frame .timer_box strong {
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -1184,7 +1184,7 @@ a {
 .deals_frame .timer_box span {
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -1207,7 +1207,7 @@ a {
   background: rgba(245, 195, 75, 1);
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 500;
   line-height: 22px;
@@ -1283,7 +1283,7 @@ a {
 }
 
 .deals_frame .product_card_context span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -1301,7 +1301,7 @@ a {
 strong,
 a {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;

@@ -42,10 +42,9 @@
 }
 
 .top_container .top_top a {
-  width: ;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -102,7 +101,7 @@
 .banner_container .left_context strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -112,7 +111,7 @@
 }
 .banner_container .left_context span {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -130,7 +129,7 @@
   background-color: rgba(245, 195, 75, 1);
   border-radius: 6px;
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 600;
@@ -278,7 +277,7 @@
   border-radius: 6px;
 
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -444,7 +443,7 @@ a {
 .inner_container .inner_head p {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -456,7 +455,7 @@ a {
 .inner_container .inner_head span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -491,7 +490,7 @@ a {
 .inner_container .select_box span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -505,7 +504,7 @@ a {
   outline: none;
   background: none;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;

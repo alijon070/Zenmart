@@ -22,13 +22,89 @@ p {
   display: flex;
 }
 
+/* pagination */
+
+.product_pagionation_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product_pagionation_box .product_pagionation_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_pagionation_main .pagionation_dot {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pagionation_dot .dot {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.pagionation_dot .dot div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #112137;
+}
+
+.pagionation_dot .dot.active {
+  border: 2px solid #112137;
+  border-radius: 50%;
+}
+
+/* page router */
+
+.page_router {
+  width: 1320px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.page_router a {
+  margin-right: 10px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.page_router .aa::after {
+  content: "/";
+  margin-left: 10px;
+  color: rgba(4, 30, 66, 1);
+}
+
 /* navbar frame */
 
 .navbar_frame {
   position: relative;
   width: 100%;
   height: 145px;
-  margin-bottom: 47px;
   display: flex;
   flex-direction: row;
   justify-content: center;
